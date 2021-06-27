@@ -1,0 +1,41 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^4.0.3",
+    "react-tap-event-plugin": "^3.0.3"
+  },
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "coverage": "react-scripts test --coverage && open ./coverage/lcov-report/index.html",
+    "eject": "react-scripts eject"
+  },
+  "resolutions": {
+    "css-what": "^5.0.1",
+    "normalize-url": "^6.0.1",
+    "node-fetch": "^2.6.1",
+    "browserslist": "^4.16.5",
+    "glob-parent": "^5.1.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.1",
+    "react-test-renderer": "^17.0.2"
+  }
+}
